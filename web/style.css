@@ -13,19 +13,23 @@
 *{
     font-family: "Montserrat", sans-serif;
     font-style:normal;
+    cursor: url('assets/download.png'), auto;
 }
 
 nav{
-    padding: 10px;
-    margin: auto; 
+    
     text-align: center;
     background-color: #142625;
-    border-radius: 10px 10px 10px 10px;}
+    border-radius: 10px 10px 10px 10px;
+    display: flexbox;
+    padding: 10px;
+    margin: auto;}
 
 nav > a{
     color: #e3f0ec;
     text-decoration: none;
-    margin: 20px;}
+    margin: 15px;
+    cursor: url('assets/download\ \(1\).png'), auto;}
 
 a:hover{
         text-decoration: underline;
@@ -111,7 +115,7 @@ a.button{
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    cursor: pointer;
+    cursor: url('assets/download\ \(1\).png'), auto;
 }
 
 a.button1:hover{
